@@ -1,3 +1,3 @@
 from eclipse-temurin:17
-copy target/mywebapps.jar MyWebApps.jar
-cmd ["java","-jar","MyWebApps.jar"]
+copy target/MyWebApp.jar MyWebApp.jar
+cmd ["java","-jar","MyWebApp.jar"]
